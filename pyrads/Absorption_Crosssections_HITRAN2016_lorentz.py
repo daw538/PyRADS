@@ -136,14 +136,19 @@ molecules['H2O'] = [1,18.,QGenericNonLin] #Entry is [molecule number,mol wt,part
 molecules['CO2'] = [2,44.,QGenericLin]
 molecules['O3']  = [3,48.,QGenericNonLin]
 molecules['N2O'] = [4,44.,QGenericLin]
+molecules['CO']  = [5,28.,QGenericLin]
 
 molecules['CH4'] = [6,16.,QGenericNonLin]
 molecules['NH3'] = [11,17.,QGenericNonLin] # linear structure?
 
+molecules['N2']  = [22,28.,QGenericLin]
 molecules['HCN'] = [23,27.,QGenericNonLin]
+molecules['C2H2'] = [26,26.,QGenericLin]
 molecules['C2H6'] = [27,30.,QGenericNonLin]
 
 molecules['SF6'] = [30,146.,QGenericNonLin]  # careful: old file!
+
+molecules['H2'] = [45,2.,QGenericLin]
 
 #-----------------------------------------------
 
